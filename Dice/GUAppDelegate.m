@@ -7,6 +7,7 @@
 //
 
 #import "GUAppDelegate.h"
+#import "GameBoardViewController.h"
 
 @implementation GUAppDelegate
 
@@ -15,8 +16,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    // Create a GameBoardViewController
+    GameBoardViewController *boardController = [[GameBoardViewController alloc] initWithNibName:nil bundle:nil];
+    
+    // Set the rootViewController to the GameBoardViewController
+    [self.window setRootViewController:boardController];
+
     [self.window makeKeyAndVisible];
     return YES;
 }

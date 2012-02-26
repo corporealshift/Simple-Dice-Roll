@@ -13,6 +13,12 @@
 		E446FBCC14F463F100AEA548 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E446FBCA14F463F100AEA548 /* InfoPlist.strings */; };
 		E446FBCE14F463F100AEA548 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E446FBCD14F463F100AEA548 /* main.m */; };
 		E446FBD214F463F100AEA548 /* GUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E446FBD114F463F100AEA548 /* GUAppDelegate.m */; };
+		E446FBE014F4649E00AEA548 /* GameBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E446FBDE14F4649E00AEA548 /* GameBoardViewController.m */; };
+		E446FBE414F4657D00AEA548 /* DiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E446FBE314F4657D00AEA548 /* DiceView.m */; };
+		E446FC2914F5DC4300AEA548 /* dice-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E446FC2714F5DC4300AEA548 /* dice-icon.png */; };
+		E446FC2A14F5DC4300AEA548 /* dice-icon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E446FC2814F5DC4300AEA548 /* dice-icon2x.png */; };
+		E446FC3914F8974900AEA548 /* GameBoardUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = E446FC3814F8974900AEA548 /* GameBoardUIView.m */; };
+		E446FC3B14F9E5F700AEA548 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E446FC3A14F9E5F700AEA548 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,21 @@
 		E446FBC114F463F100AEA548 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E446FBC314F463F100AEA548 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E446FBC514F463F100AEA548 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E446FBC914F463F100AEA548 /* Dice-Info.plist */ = {isa = PBXFileReference; path = "Dice-Info.plist"; sourceTree = "<group>"; };
+		E446FBC914F463F100AEA548 /* Dice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dice-Info.plist"; sourceTree = "<group>"; };
 		E446FBCB14F463F100AEA548 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E446FBCD14F463F100AEA548 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E446FBCF14F463F100AEA548 /* Dice-Prefix.pch */ = {isa = PBXFileReference; path = "Dice-Prefix.pch"; sourceTree = "<group>"; };
-		E446FBD014F463F100AEA548 /* GUAppDelegate.h */ = {isa = PBXFileReference; path = GUAppDelegate.h; sourceTree = "<group>"; };
+		E446FBCF14F463F100AEA548 /* Dice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dice-Prefix.pch"; sourceTree = "<group>"; };
+		E446FBD014F463F100AEA548 /* GUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUAppDelegate.h; sourceTree = "<group>"; };
 		E446FBD114F463F100AEA548 /* GUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUAppDelegate.m; sourceTree = "<group>"; };
+		E446FBDD14F4649E00AEA548 /* GameBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameBoardViewController.h; path = ../GameBoardViewController.h; sourceTree = "<group>"; };
+		E446FBDE14F4649E00AEA548 /* GameBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameBoardViewController.m; path = ../GameBoardViewController.m; sourceTree = "<group>"; };
+		E446FBE214F4657D00AEA548 /* DiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceView.h; sourceTree = "<group>"; };
+		E446FBE314F4657D00AEA548 /* DiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceView.m; sourceTree = "<group>"; };
+		E446FC2714F5DC4300AEA548 /* dice-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dice-icon.png"; sourceTree = "<group>"; };
+		E446FC2814F5DC4300AEA548 /* dice-icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dice-icon2x.png"; sourceTree = "<group>"; };
+		E446FC3714F8974900AEA548 /* GameBoardUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoardUIView.h; sourceTree = "<group>"; };
+		E446FC3814F8974900AEA548 /* GameBoardUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoardUIView.m; sourceTree = "<group>"; };
+		E446FC3A14F9E5F700AEA548 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E446FC3B14F9E5F700AEA548 /* QuartzCore.framework in Frameworks */,
+				E446FBC614F463F100AEA548 /* CoreGraphics.framework in Frameworks */,
 				E446FBC214F463F100AEA548 /* UIKit.framework in Frameworks */,
 				E446FBC414F463F100AEA548 /* Foundation.framework in Frameworks */,
-				E446FBC614F463F100AEA548 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +61,7 @@
 		E446FBB214F463F100AEA548 = {
 			isa = PBXGroup;
 			children = (
+				E446FC3A14F9E5F700AEA548 /* QuartzCore.framework */,
 				E446FBC714F463F100AEA548 /* Dice */,
 				E446FBC014F463F100AEA548 /* Frameworks */,
 				E446FBBE14F463F100AEA548 /* Products */,
@@ -72,8 +89,16 @@
 		E446FBC714F463F100AEA548 /* Dice */ = {
 			isa = PBXGroup;
 			children = (
+				E446FBE214F4657D00AEA548 /* DiceView.h */,
+				E446FBE314F4657D00AEA548 /* DiceView.m */,
+				E446FBDD14F4649E00AEA548 /* GameBoardViewController.h */,
+				E446FBDE14F4649E00AEA548 /* GameBoardViewController.m */,
+				E446FC3714F8974900AEA548 /* GameBoardUIView.h */,
+				E446FC3814F8974900AEA548 /* GameBoardUIView.m */,
 				E446FBD014F463F100AEA548 /* GUAppDelegate.h */,
 				E446FBD114F463F100AEA548 /* GUAppDelegate.m */,
+				E446FC2714F5DC4300AEA548 /* dice-icon.png */,
+				E446FC2814F5DC4300AEA548 /* dice-icon2x.png */,
 				E446FBC814F463F100AEA548 /* Supporting Files */,
 			);
 			path = Dice;
@@ -142,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E446FBCC14F463F100AEA548 /* InfoPlist.strings in Resources */,
+				E446FC2914F5DC4300AEA548 /* dice-icon.png in Resources */,
+				E446FC2A14F5DC4300AEA548 /* dice-icon2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +181,9 @@
 			files = (
 				E446FBCE14F463F100AEA548 /* main.m in Sources */,
 				E446FBD214F463F100AEA548 /* GUAppDelegate.m in Sources */,
+				E446FBE014F4649E00AEA548 /* GameBoardViewController.m in Sources */,
+				E446FBE414F4657D00AEA548 /* DiceView.m in Sources */,
+				E446FC3914F8974900AEA548 /* GameBoardUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,10 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
-	<array/>
+	<array>
+		<string>dice-icon2x</string>
+		<string>dice-icon</string>
+	</array>
 	<key>CFBundleIdentifier</key>
 	<string>com.graphicsunplugged.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
